@@ -6,5 +6,6 @@
 <body>
 
     <a href="${pageContext.request.contextPath}/product/findAll">查询所有商品信息</a>
+    <a href="${pageContext.request.contextPath}/pages/main.jsp">main</a>
 </body>
 </html>

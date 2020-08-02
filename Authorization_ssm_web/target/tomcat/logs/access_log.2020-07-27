@@ -1,2 +1,0 @@
-0:0:0:0:0:0:0:1 - - [27/Jul/2020:21:57:48 +0800] "GET /Authorization_ssm_web/product/findAll HTTP/1.1" 200 22447 http-bio-8088-exec-1 1730
-0:0:0:0:0:0:0:1 - - [27/Jul/2020:21:57:51 +0800] "GET /Authorization_ssm_web/product/findAll HTTP/1.1" 200 22447 http-bio-8088-exec-3 11
