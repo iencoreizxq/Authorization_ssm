@@ -5,7 +5,6 @@
 <html>
 <body>
 
-    <a href="${pageContext.request.contextPath}/product/findAll">查询所有商品信息</a>
-    <a href="${pageContext.request.contextPath}/pages/main.jsp">main</a>
+<jsp:forward page="pages/main.jsp"></jsp:forward>
 </body>
 </html>
