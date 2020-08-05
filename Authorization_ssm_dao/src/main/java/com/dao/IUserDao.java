@@ -17,7 +17,7 @@ public interface IUserDao {
             @Result(property = "password",column = "password"),
             @Result(property = "phoneNum",column = "phoneNum"),
             @Result(property = "status",column = "status"),
-            @Result(property = "roles",column = "status",javaType = java.util.List.class,many = @Many(select = "com.dao.IRoleDao.findRoleByUserId"))
+            @Result(property = "roles",column = "id",javaType = java.util.List.class,many = @Many(select = "com.dao.IRoleDao.findRoleByUserId"))
     })
     public UserInfo findByUsername(String username) throws Exception;
 }
